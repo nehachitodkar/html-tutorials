@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aarya's Fitness</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-color: black;
+            color:rgb(26, 194, 194);
+            margin: 0px;
+            padding: 0px;
+            /* position: absolute; */
+            background-repeat: no-repeat;
+            background-position-x: 2030px 1880px;
+            background-image: url(https://thumbs.dreamstime.com/b/closeup-portrait-muscular-man-workout-barbell-gym-brutal-bodybuilder-athletic-six-pack-perfect-abs-shoulders-55122231.jpg);
+        }
+        .left{
+            display:inline-block;
+            border:2px solid red;
+            position:absolute;
+            border:2px solid pink;
+            top: 20px;
+            left:34px;
+        }
+        .mid{
+            display:block;
+            width: 33%;
+            margin: 20px auto;
+            top: 20px;
+            border:2px solid green;
+
+        }
+        .right{
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            display:inline-block;
+            border:2px solid yellow;
+
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+        }
+        .navbar li a:hover,.navbar li a:active{
+            color: gray;
+            text-decoration: underline;
+            /* padding: 34px 23px; */
+        }
+        .btn{
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid gray;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: brown;
+        }
+        h1{
+            position: center;
+            color: rgb(174, 146, 200);
+        }
+        .container{
+            border:2px solid red ;
+            margin: 106px 82px;
+            padding: 75px;
+            border-radius: 28px;
+            width: 33%;
+        }
+        .container btn{
+            color: black;
+        }
+        .formgroup{
+            margin: 2px 2px;
+            padding: 4px 4px;
+            border-radius: 11px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header"  >
+        <!-- left box for logo -->
+        <h1>Welcome to Aarya's Fitness</h1>
+       
+        <!-- mid box for  navigation-->
+        <div class="mid"><ul class="navbar" type="circle">
+            
+                <li><a href="#"class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us </a></li>
+
+        </ul> </div> 
+        <!-- right box for buttons -->
+        <div class="right"><button class="btn"></button>Call us Now<button class="btn">Email Us</button></div>            
+        </header>
+        <div class="container"><h1>Welcome to Gym</h1></div>
+        <form action="noaction.php">
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your name">
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your Email">
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your locality">
+            <button class="submit">Submit</button>
+        </div>
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            margin: 34px;
+        }
+        body{
+            background-color: aqua;
+        }
+        .container{
+            background-color: burlywood;
+            border: 3px solid red;
+            padding-top: 19px;  /*here we can padding and margin left -right-bottom-top*/
+            padding-bottom: 19px;/*padding will be top bottom left right you can 29px 34px 45px 46px*/
+            padding-left: 24px;/*padding is inside the element while margin is outside the element*/
+            margin: 34px;
+            border-radius: 23px;
+        }
+    </style>
+</head>
+<body>
+    <div class ="container">
+        <h3>This is my heading</h3>
+        <p id="first">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi quia ut provident aperiam quod illo facilis quis sint possimus temporibus!
+
+
+        </p>
+    </div>
+    
+        <div class ="container">
+            <h3>This is my heading</h3>
+            <p id="second">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi quia ut provident aperiam quod illo facilis quis sint possimus temporibus!
+                </p>
+    </div>
+    <div class=" container">
+        <h3>This is my heading</h3>
+        <p id="third">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi quia ut provident aperiam quod illo facilis quis sint possimus temporibus!
+        </p>
+    </div>
+</body>
+</html>

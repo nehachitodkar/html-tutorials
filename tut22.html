@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selector and more deisigning</title>
+    <style>
+        .container {
+            border: 2px solid red;
+            background-color: rgb(130, 169, 130);
+            padding: 34px;
+            margin: 34px auto;
+            /*it will be auto means y will come into the centre*/
+            width: 666px;
+        }
+
+        a:visited {
+            color: yellow;
+            /*this is referel for the link it will visit on that site*/
+        }
+
+        a:active {
+            background-color: orange;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            /*meaning of a:hover is that if we go on that button its color ,backgcolor can be changed*/
+            color: blue;
+            background-color: bisque;
+        }
+
+        .btn:hover {
+            color: antiquewhite;
+            background-color: goldenrod;
+            border: 2px solid black;
+        }
+
+        .btn {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            background-color: red;
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            /*cursor for ponting hand sign*/
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="cont1">
+        <h3>This is my heading</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia maxime officiis laborum sunt, rem ducimus
+            nobis eos qui nemo nisi blanditiis vel temporibus tempora. Est quidem, cupiditate illum hic dignissimos
+            laboriosam. Harum, placeat aliquam.</p>
+        <a href="https://google.com" class="btn">Read more</a>
+        <button class="btn">Contact us</button>
+    </div>
+</body>
+
+</html>
